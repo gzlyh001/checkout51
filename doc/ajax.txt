@@ -1,0 +1,15 @@
+http://checkout51.test/api/import.html
+
+	import data from c51.json into DB table tb_offer
+
+http://checkout51.test/api/getOffers.html?sort=1
+http://checkout51.test/api/getOffers.html?sort=2
+http://checkout51.test/api/getOffers.html?sort=3
+http://checkout51.test/api/getOffers.html?sort=4
+
+	request offer data from tb_offer.
+	sort=1 : ORDER BY `name` ASC
+	sort=2 : ORDER BY `name` DESC
+	sort=3 : ORDER BY `cash_back` ASC
+	sort=4 : ORDER BY `cash_back` DESC
+	
